@@ -454,7 +454,33 @@ opacity: .75%;
   height: 100vh;
   background: url(../img/introbg.jpg) no-repeat center ;
   background-size:cover ;
+  padding-top: 263px;
 }
-
+.intro__title{
+max-width: 619px;
+font-size: 50px;
+font-weight: 500;
+line-height: 60px;
+color: #fff;
+margin-bottom: 22px;
+}
+.intro__subtitle{
+    max-width: 546px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+.search-form__info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form__field{
+background: transparent url(/img/search.svg) no-repeat left center;
+background-size: 20px;
+border: 0;
+border-bottom: 2px solid #BFC0C5;
+margin-right: 60px;
+}
 
 /* intro styles end */
